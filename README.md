@@ -20,6 +20,8 @@ __Penilaian Metrik__
 Untuk mengevaluasi kinerja model, kami akan menggunakan metrik seperti RMSE (Root Mean Square Error), MAE (Mean Absolute Error), dan MAPE (Mean Absolute Percentage Error). RMSE mengukur seberapa jauh rata-rata prediksi model dari nilai yang diamati, sedangkan MAE memberikan gambaran rata-rata dari seberapa besar kesalahan prediksi dalam nilai absolut. MAPE menyajikan rata-rata persentase kesalahan prediksi oleh model. Semakin kecil nilai RMSE, MAE, dan MAPE, semakin baik kualitas prediksi model.
 
 Selain itu, jika model linear dipilih sebagai model terbaik, kami akan mengevaluasi R-squared atau R-squared yang disesuaikan. R-squared memberikan indikasi seberapa baik model memadankan data observasi, dengan nilai mendekati 1 menunjukkan kesesuaian yang lebih baik. Namun, perlu dicatat bahwa metrik ini tidak cocok untuk model non-linear.
+
+
 __Kesimpulan:__
 Berdasarkan evaluasi, fitur 'Year' dan 'Engine_Size' telah teridentifikasi sebagai faktor yang signifikan dalam menentukan harga mobil bekas dalam model ini.
 
